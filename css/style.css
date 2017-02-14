@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2056ac;
+    font-family: "Questrial";
+}
+
+h1 {
+    margin: 0.3em 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    padding: 1.3em;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+header a {
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header a:hover,
+.selected {
+    background-color: white;
+    color: #2056ac;
+    border-radius: 0.5em;
+}
+
+main {
+    padding: 1em;
+    background-color: #fff;
+}
+
+main section > img {
+    width: 100%;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
