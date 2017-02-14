@@ -12,20 +12,32 @@ h1 {
     font-size: 3em;
     font-weight: bold;
 }
-
+main section article {
+    padding: 1em;
+}
 h2 {
     font-size: 2.5em;
     font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #404040;
 }
-
+article span {
+    font-weight: bold;
+}
+article p a:first-of-type {
+    text-transform: uppercase;
+}
 h3 {
     font-size: 2em;
     font-weight: bold;
+    color: #404040;
+    margin: 0.5em 0;
 }
 
 h4 {
     font-size: 1.5em;
     font-weight: bold;
+    color: #6e6e6e;
 }
 
 header {
@@ -64,12 +76,13 @@ header a:hover,
 }
 
 main {
-    padding: 1em;
+    /*padding: 1em;*/
     background-color: #fff;
 }
 
 main section > img {
-    width: 100%;
+    width: 90%;
+    margin-top: 1em;
 }
 
 main section {
@@ -77,4 +90,60 @@ main section {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-bottom: 1px solid #7f7f7f;
+}
+p {
+    color: #7f7f7f;
+}
+button {
+    background-color: #64abd1;
+    color: white;
+    padding: 0.5em;
+    border: none;
+    margin: 0.5em;
+}
+section:nth-last-child(2) {
+    border: none;
+}
+section:nth-last-child(1) {
+    background-color: #e3f0f7;
+    border: none;
+}
+article ul li {
+    color: #7f7f7f;
+}
+article i {
+    color: #5B6063;
+    margin-bottom: 0.7em;
+}
+footer {
+    padding: 1em;
+    border-top: 13px solid #3162b1;
+}
+footer p {
+    margin: 1em;
+    color: #cedaec;
+    text-align: center;
+    line-height: 1.3em;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer ul li a{
+    color: white;
+    background-color: #4c93b9;
+    width: 1.6em;
+    padding: 0.3em;
+    margin: 0.2em;
+    display: block;
+    text-align: center;
+}
+footer a:last-child {
+    text-transform: uppercase;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+
 }
