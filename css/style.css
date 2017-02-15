@@ -104,7 +104,7 @@ button {
     color: white;
     padding: 0.5em;
     border: none;
-    margin: 0.5em;
+    margin: 1.5em 0 0.5em 0;
 }
 section:nth-last-child(2) {
     border: none;
@@ -116,9 +116,10 @@ section:nth-last-child(1) {
 article ul li {
     color: #7f7f7f;
 }
-article i {
+article i.fa-6x {
     color: #5B6063;
     margin-bottom: 0.7em;
+    font-size: 2em;
 }
 footer {
     padding: 1em;
@@ -217,14 +218,17 @@ footer a {
 
     h3 {
         font-size: 26px;
+        margin-bottom: 2em;
     }
 
     h4 {
         font-size: 16px;
+        margin-bottom: 1.2em;
     }
 
     p {
         font-size: 16px;
+        line-height: 2em;
     }
 
     nav li {
@@ -240,6 +244,35 @@ footer a {
     }
 
     section {
-        padding: 5em;
+        padding: 5em 0;
+    }
+    button {
+        background-color: #64abd1;
+        color: white;
+        padding: 1em 2em;
+        border: none;
+        margin: 3em 0 0.5em 0;
+        font-size: 16px;
+    }
+    article i.fa-6x {
+        font-size: 4em;
+    }
+    section:last-child {
+        justify-content: space-around;
+    }
+    footer {
+        border-top: 18px solid #3162b1;
+
+    }
+    footer i.fa-6x {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    footer ul {
+        padding: 0;
+    }
+    footer ul li a {
+        width: 2.6em;
+        padding: 0.6em 0;
     }
 }
