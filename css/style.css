@@ -172,19 +172,17 @@ footer a {
 }
 
 @media (min-width: 700px) {
-    nav ul {
+    #menu {
         flex-direction: row;
+        display: flex;
         justify-content: center;
     }
-
-    nav ul li:first-child {
+    #menu li:last-child,#disparait {
         display: none;
     }
-
-    nav ul li:not(:first-child){
-        display: list-item;
+    #menu li {
+        text-align: center;
     }
-
     header {
         padding-bottom: 0;
     }
