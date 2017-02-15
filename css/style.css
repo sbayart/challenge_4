@@ -107,6 +107,7 @@ div.contact {
     width: 100%;
     max-width: 1200px;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 main section:not(:last-child) {
